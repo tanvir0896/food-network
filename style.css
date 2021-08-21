@@ -1,3 +1,37 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.orange-colour{
+   color:orangered; 
+}
+.content{
+    padding: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.recipe-part{
+    text-align: center;
+    
+    
+}
