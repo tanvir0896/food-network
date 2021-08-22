@@ -5,18 +5,24 @@ body{
    color:orangered; 
 }
 .content{
-    padding: 10%;
-    padding-left: 5%;
-    padding-top: 5%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+#content{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .half-width img{
-    width: 70%;
+    width: 100%;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+}
+.button-gap{
+    padding-bottom: 4%;
 }
 .link-button{
     text-decoration: none;
@@ -30,8 +36,42 @@ body{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
-.recipe-part{
+#recipe-part{
+    display: flex;
+    display: inline-block;
     text-align: center;
+}
+.food-items{
+    display: flex;  
+    padding-bottom: 5%; 
+}
+.food{
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-left: 20px;
     
-    
+}
+.food img{
+    width: 100%;
+}
+.social-media{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.responce{
+    padding-left: 10%;
+}
+.footer{
+    display: flex;
+    display: inline;
+    text-align: center;
+}
+.back{
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 5px;
 }
